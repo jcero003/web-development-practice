@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Marking Up A letter </title>
-		<link href="styles/letter.css rel="stylesheet">
-		<meta name="author" content="Jorge Ceron"
+		<link href="letter.css" rel="stylesheet">
+		<meta name="author" content="Jorge Ceron">
 	</head>
 	<body>
 		<address class="sender-column">
@@ -16,7 +16,7 @@
 			<strong>Tel</strong>: 123-456-7890<br>
 			<strong>Email</strong>: no_reply@example.com<br>
 		</address>
-		<time datetime="2016-01-20" class="sender-column">20 January 2016</time>
+		<p class="sender-column"><time datetime="2016-01-20">20 January 2016</time></p>
 		<address>
 			<strong>Miss Eileen Dover</strong><br>
 			4321 Cliff Top Edge<br>
@@ -38,7 +38,7 @@
 		<h2>Subjects of study</h2>
 		<p>At the Awesome Science Faculty, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority:</p>
 		<ol>
-			<li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14<sub>H<sub>12</sub>O<sub>3</sub>.)</li>
+			<li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)</li>
 			<li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)</li>
 			<li><abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> constructs for representing musical scores.</li>
 		</ol>
@@ -56,5 +56,5 @@
 		<p>For more of my research, see my <a href="www.example.com" title="Dance Research">exotic dance research page</a>.</p>
 		<p>Yours sincerely,</p>
 		<p>Dr Eleanor Gaye</p>
-		<p>University of Awesome motto: <q cite="Bill S Preston">"Be awesome to each other."</q> -- <cite>The memoirs of Bill S Preston</cite>Bill S Preston, <abbr title="Esquire">Esq</abbr></p>
+		<p>University of Awesome motto: <q cite="The memoirs of Bill S Preston">Be awesome to each other.</q> -- <cite>Bill S Preston, <abbr title="Esquire">Esq</abbr></cite></p>
 	</body>
